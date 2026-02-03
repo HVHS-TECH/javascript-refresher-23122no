@@ -2,25 +2,23 @@
 <html>
     <head>
         <title>JavaScript refresher</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <script src=""></script>
+    <script src="script.js"></script>
 <body>
 
 <h1 id="welcomeMessage">Welcome to the JavaScript Refresher page!</h1>
 
-<p>Your tasks:
-    <ul>
-        <li>Connect the JavaScript file - you will see an alert</li>
-        <li>Add a button - Make the alert only show up when you press the button</li>
-    </ul>
-    Extension
-    <ul>
-        <li>Add a text input</li>
-        <li>The button alerts you with the text you wrote</li>
-        <li>Get rid of the alert - the button updates the heading of this page</li>
-    </ul>
-    <p>You learned all this last year. You just need to remember how!<br>
-    You can Google it, ask a friend, copy from last year's work, whatever works for you.<br>
-    By the end of the spell you should have some JavaScript going.</p>
+        <button onclick="showAlert();">Show Alert</button><br><br>
+
+        <form id="f_userInput" onsubmit="return false;">
+
+            <label for="i_input">Hi! Input something below</label><br><br>
+            <input pattern="[A-Za-z\s\-]{1,}" type="text" id="i_input" name="i_input" required><br><br>
+
+            <button onclick="submitDetails();" value="submit" id="yes">Submit</button>
+
+        </form>
+
 </body>
 </html>
