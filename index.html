@@ -3,22 +3,24 @@
     <head>
         <title>JavaScript refresher</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sour+Gummy|Mona+Sans">
+        <script src="script.js"></script>
     </head>
-    <script src="script.js"></script>
+
 <body>
 
-<h1 id="welcomeMessage">Welcome!!! to the JavaScript Refresher page!</h1>
+    <h1 id="welcomeMessage">Welcome to the JavaScript Refresher page!</h1>
 
-        <button onclick="showAlert();">Show Alert</button><br><br>
+    <button onclick="showAlert();">Show Alert</button><br><br>
 
-        <form id="f_userInput" onsubmit="return false;">
+    <form id="f_userInput" onsubmit="return false;">
 
-            <label for="i_input">Hi! Input something below</label><br><br>
-            <input pattern="[A-Za-z\s\-]{1,}" type="text" id="i_input" name="i_input" required><br><br>
+        <label for="i_input">Hi! Input something below:</label><br><br>
+        <input pattern="[A-Za-z\s\-]{1,}" type="text" id="i_input" name="i_input" required><br><br>
 
-            <button onclick="submitDetails();" value="submit" id="yes">Submit</button>
+        <button onclick="submitDetails();" value="submit">Submit</button>
 
-        </form>
+    </form>
 
 </body>
 </html>

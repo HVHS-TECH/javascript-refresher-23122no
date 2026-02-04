@@ -1,8 +1,22 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  font-family: "Sour Gummy", 'Times New Roman', Times, serif, sans-serif;
   justify-content: center;
   align-items: center;
   margin: 5vh;
-  color:  #47072a;
-  background-color: rgb(252, 237, 239);
+  color:  #280747;
+  background-color: rgb(242, 232, 252);
+}
+
+button {
+  background-color: #280747;
+  color: rgb(242, 232, 252);
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Sour Gummy", 'Times New Roman', Times, serif, sans-serif;
+}
+
+input {
+  background-color: rgb(242, 232, 252);
+  border-radius: 5px;
 }
